@@ -4,13 +4,13 @@ def linearSearch(myList, myItem):
         while position < len(myList) and not found:
             if myList[position] == myItem:
                 found = True
-            postion = position + 1
+            position = position + 1
         return found
 
-if if __name__ == "__main__":
-    passopping = ["apples", "banana", "chocolate", "pasta"]
+if __name__ == "__main__":
+    shopping = ["apples", "banana", "chocolate", "pasta"]
     item = input("What item you want to find? " )
-    isFound = linearSearch(item, shopping)
+    isFound = linearSearch(shopping, item)
     if (isFound):
         print("Item is found")
     else:
